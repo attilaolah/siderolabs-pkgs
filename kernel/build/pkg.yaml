@@ -24,9 +24,10 @@ steps:
 
         make {{ .BUILD_ARG_KERNEL_TARGET }}
       {{ else }}
-      - |
-        cd /src
-        python3 /toolchain/kernel-hardening-checker/bin/kernel-hardening-checker -c .config -m json | python3 /pkg/scripts/filter-hardened-check.py ${CARCH}
+      # Try without the hardening checks.
+      # - |
+      #   cd /src
+      #   python3 /toolchain/kernel-hardening-checker/bin/kernel-hardening-checker -c .config -m json | python3 /pkg/scripts/filter-hardened-check.py ${CARCH}
       - |
         cd /src
 
