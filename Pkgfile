@@ -69,8 +69,8 @@ vars:
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
   linux_version: 6.6.60
-  linux_sha256: 33d06757acdd4ed57fdcfa0007f60ca4e2463f958f916312a3336ad4c426372e
-  linux_sha512: 5edce33047be07d92c7a3a94a2df63e02558d6985c7d56441efb404fd9ed6a34adf07ecf2382fa9166b2c5e9738a23626bf0c30a06319c38052b22a30285718a
+  linux_sha256: 6e9843b8954faa1e5195aaf3a76a43fcc2ddb6cd152f628605d0e2ce61f551ea
+  linux_sha512: 92c3543cfd843e56315f289bf09bc386c2776dfe1558aa61937cc4b1d8d7eff66f67d400d06a9847c59cd4a1e2826c18bf5a36a1d1503fc014227fb16c153028
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git
   kmod_version: 33
